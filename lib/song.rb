@@ -30,5 +30,6 @@ attr_accessor :name, :artist, :genre
     @@genres.each do |a|
     genre_count[a.uniq] = a.size
     genre_count
+    end
   end
 end
