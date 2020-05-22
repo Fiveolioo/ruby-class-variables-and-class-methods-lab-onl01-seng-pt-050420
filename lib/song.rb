@@ -26,6 +26,6 @@ attr_accessor :name, :artist, :genre
   end
   
   def self.genre_count
-    @@genres.histogram
+    @@genres
   end
 end
