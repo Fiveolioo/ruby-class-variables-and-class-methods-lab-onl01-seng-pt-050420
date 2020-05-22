@@ -26,6 +26,8 @@ attr_accessor :name, :artist, :genre
   end
   
   def self.genre_count
-    @@genres
+    genre_count = {}
+    genre_count[@@genre.uniq][@@genre.size]
+    genre_count
   end
 end
